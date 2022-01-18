@@ -1,0 +1,58 @@
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/RGB.css">
+    </head>
+ 
+    <body class="back INC">
+        <div class="container">
+            
+            <div id="Red">
+                <label style="color: white;"> (R) Vermelho: 
+                <input class="form-control-range" type="range" id="red" value="0" min="0" step="0" max="255"> </label> 
+            </div>
+
+                <div>
+                    <input class="text-center" type="text" id="inputr" disabled value="0">
+                </div>
+
+
+            <div id="Green">
+                <label style="color: white;"> (G) Verde: 
+                <input class="form-control-range" type="range" id="green"  value="0" step="0"  min="0" max="255"></label> 
+                
+            </div>
+
+
+            <div>
+                <input class="text-center" type="text" id="inputg" disabled value="0">
+            </div>
+        
+            
+            <div id="Blue">
+                <label style="color: white;"> (B) Azul: 
+                <input class="form-control-range" type="range" id="blue" value="0" step="0" min="0" max="255"> </label> 
+            </div>
+
+
+            <div>
+                <input class="text-center" type="text" id="inputb" disabled value="0">
+            </div>
+                
+        </div>
+
+            <div id="corRGB" class="card corRGB">
+                <H2 style="text-align: center; padding-top: 4rem;"> RGB (0, 0, 0) </H2>
+            </div>
+
+
+        
+
+        <script src="RGB.js"></script>
+    </body>
+    </html>
